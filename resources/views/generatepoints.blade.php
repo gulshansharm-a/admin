@@ -1,10 +1,18 @@
 @extends('side')
 @section('content')
-<center>
+<div id="center">
+  <div class="dropdown">
+    <button class="dropbtn">Entries</button>
+    <div class="dropdown-content">
+      <a>10</a>
+      <a>30</a>
+      <a >50</a>
+      <a >All</a>
+    </div>
+  </div>
+   
 <button  type="button" class="btn btn-success">Generate Points +</button>
-
-
-</center>
+</div>
 <br>
 <table class="table">
 

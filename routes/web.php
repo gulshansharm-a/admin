@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+
 
 Route::get('/generate-points', function () {
     return view('generatepoints');
@@ -25,4 +23,12 @@ Route::get('/generate-points', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+Route::get('/distributor', function () {
+    return view('Distributor');
+});
+
+
 
