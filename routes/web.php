@@ -19,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/generate-points', function () {
     return view('generatepoints');
 });
+Route::get('/Add', function () {
+    return view('Add');
+});
 
 
 Route::get('/login', function () {
@@ -29,6 +32,15 @@ Route::get('/dashboard', function () {
 });
 Route::get('/distributor', function () {
     return view('Distributor');
+});
+Route::get('/Agent', function () {
+    return view('Agent');
+});
+Route::get('/Player', function () {
+    return view('Player');
+});
+Route::get('/OnlinePlayer', function () {
+    return view('OnlinePlayer');
 });
 
 
