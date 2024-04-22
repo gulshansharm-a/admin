@@ -2,7 +2,7 @@
 @section('content')
 <div class="center">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<h4 style="color: black; font-weight:bolder">Active Super Distributor</h4>
+<h4 style="color: black; font-weight:bolder"> Online Player</h4>
 <div style="display: flex">
 <div id="buttonsalign">
 
@@ -21,12 +21,55 @@
         <th scope="col">CREDIT</th>
         <th scope="col">COMMISSION %</th>
         <th scope="col">ACTION</th>
+        <th scope="col">SETTING</th>
         <th scope="col">LAST LOGIN</th>
         <th scope="col">CREATED DATE</th>
     </tr>
     </thead>
     <tbody>
+   
+        <div id="actionspace">
+   
+
+        </td>
+          </tr>
+          <tr>
+    
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td><div id="actionspace">
+                <span class="material-symbols-outlined" id="action">
+                    edit
+                    </span>
+                    <span class="material-symbols-outlined" id="action">
+                        unarchive
+                        </span>
+                        <span class="material-symbols-outlined" id="action">
+                            move_to_inbox
+                            </span>
+    </div>
+<div id="actionspace">
+    <span class="material-symbols-outlined" id="action">
+        close
+        </span>
+        <span class="material-symbols-outlined" id="action">
+            cancel
+            </span>
+            <span class="material-symbols-outlined" id="action">
+                delete
+                </span>
+</div>
+    </td>
+    <td>
+        <button type="button" class="btn btn-primary">Reset Device</button>
+    </td>
+      </tr>
       <tr>
+    
         <th scope="row">1</th>
         <td>Mark</td>
         <td>Otto</td>
@@ -45,80 +88,57 @@
                         </span>
 </div>
 <div id="actionspace">
+<span class="material-symbols-outlined" id="action">
+    close
+    </span>
     <span class="material-symbols-outlined" id="action">
-        close
+        cancel
         </span>
         <span class="material-symbols-outlined" id="action">
-            cancel
+            delete
+            </span>
+</div>
+</td>
+<td>
+    <button type="button" class="btn btn-primary">Reset Device</button>
+</td>
+  </tr>
+  <tr>
+    
+    <th scope="row">1</th>
+    <td>Mark</td>
+    <td>Otto</td>
+    <td>@mdo</td>
+    <td>@mdo</td>
+    <td>@mdo</td>
+    <td><div id="actionspace">
+        <span class="material-symbols-outlined" id="action">
+            edit
             </span>
             <span class="material-symbols-outlined" id="action">
-                delete
-                </span>
-</div>
-    </td>
-      </tr>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td><div id="actionspace">
-            <span class="material-symbols-outlined" id="action">
-                edit
+                unarchive
                 </span>
                 <span class="material-symbols-outlined" id="action">
-                    unarchive
+                    move_to_inbox
                     </span>
-                    <span class="material-symbols-outlined" id="action">
-                        move_to_inbox
-                        </span>
 </div>
 <div id="actionspace">
+<span class="material-symbols-outlined" id="action">
+close
+</span>
+<span class="material-symbols-outlined" id="action">
+    cancel
+    </span>
     <span class="material-symbols-outlined" id="action">
-        close
+        delete
         </span>
-        <span class="material-symbols-outlined" id="action">
-            cancel
-            </span>
-            <span class="material-symbols-outlined" id="action">
-                delete
-                </span>
 </div>
-    </td>
-      </tr>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td>@mdo</td>
-        <td><div id="actionspace">
-            <span class="material-symbols-outlined" id="action">
-                edit
-                </span>
-                <span class="material-symbols-outlined" id="action">
-                    unarchive
-                    </span>
-                    <span class="material-symbols-outlined" id="action">
-                        move_to_inbox
-                        </span>
-</div>
-<div id="actionspace">
-    <span class="material-symbols-outlined" id="action">
-        close
-        </span>
-        <span class="material-symbols-outlined" id="action">
-            cancel
-            </span>
-            <span class="material-symbols-outlined" id="action">
-                delete
-                </span>
-</div>
-    </td>
-      </tr>
+</td>
+<td>
+<button type="button" class="btn btn-primary">Reset Device</button>
+</td>
+</tr>
+      
     </tbody>
   </table>
 </div>
