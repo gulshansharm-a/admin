@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,9 +21,6 @@ Route::get('/', function () {
 Route::get('/generate-points', function () {
     return view('generatepoints');
 });
-
-
-Route::get('/login', function () {
-    return view('login');
-});
-
+//login
+Route::get('/login', [LoginController::class, 'view'])->name('login');
+Route::post('/login', [LoginController::class, 'submit'])->name('login_submit');
