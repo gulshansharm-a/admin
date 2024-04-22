@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,3 +33,6 @@ Route::get('/distributor', function () {
 
 
 
+//login
+Route::get('/login', [LoginController::class, 'view'])->name('login');
+Route::post('/login', [LoginController::class, 'submit'])->name('login_submit');
