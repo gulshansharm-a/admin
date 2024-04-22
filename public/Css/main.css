@@ -114,3 +114,11 @@
     justify-content: space-between;
 }
 
+#actionspace{
+    display: flex;
+    
+}
+#action{
+    padding: 4px; 
+    font-size: 20px;
+}

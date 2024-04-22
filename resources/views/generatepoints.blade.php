@@ -18,28 +18,34 @@
 
   <thead class="table-dark">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">SL NO</th>
+      <th scope="col">CREATED DATE</th>
+      <th scope="col">BALANCE POINT</th>
+      <th scope="col">GENERATED POINT</th>
+      <th scope="col">TOTAL POINT</th>
+      <th scope="col">NOTES</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
       <td>Mark</td>
-      <td>Otto</td>
+      <td>52084</td>
       <td>@mdo</td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
-      <td>Thornton</td>
+      <td>51184
+
+      </td>
       <td>@fat</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
+      <td colspan="2">
+        429418
+      </td>
       <td>@twitter</td>
     </tr>
   </tbody>
