@@ -42,6 +42,34 @@ Route::get('/Player', function () {
 Route::get('/OnlinePlayer', function () {
     return view('OnlinePlayer');
 });
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/transfer', function () {
+    return view('transferpoint');
+});
+Route::get('/changepin', function () {
+    return view('changepin');
+});
+
+Route::get('/history', function () {
+    return view('playerhistory');
+});
+Route::get('/draw', function () {
+    return view('gamedraw');
+});
+Route::get('/jokerlist', function () {
+    return view('jokerlist');
+});
+Route::get('/analysis', function () {
+    return view('Analysis');
+});
+Route::get('/winning', function () {
+    return view('winning');
+});
+Route::get('/balance', function () {
+    return view('Balance');
+});
 
 
 

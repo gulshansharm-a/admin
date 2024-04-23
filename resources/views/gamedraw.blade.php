@@ -1,15 +1,12 @@
 @extends('side')
 @section('content')
-<h3 style="margin-bottom: 20px">Today's Summary ( 22-04-2024 )</h3>
-<p style="margin-bottom: 20px">Online Player</p>
-<Center>
 <div id="center">
   <div class="dropdown">
-    <button class="dropbtn">Entries</button>
+    <h3>Draw Details - FunTarget</h3>
+    <button class="dropbtn">Draw Details</button>
     <div class="dropdown-content">
-      <a>10</a>
-      <a>30</a>
-      <a >50</a>
+      <a>Fun Target</a>
+      
       <a >All</a>
     </div>
   </div>
@@ -22,11 +19,10 @@
   <thead class="table-dark">
     <tr>
       <th scope="col">SL NO</th>
-      <th scope="col">USER NUMBER</th>
-      <th scope="col">NAME</th>
-      <th scope="col">SUBSTITUDE</th>
-      <th scope="col">CREDIT</th>
-      <th scope="col">STATUS</th>
+      <th scope="col">Game</th>
+      <th scope="col">Draw</th>
+      <th scope="col">Time</th>
+
     </tr>
   </thead>
   <tbody>
@@ -53,5 +49,19 @@
     </tr>
   </tbody>
 </table>
+<Center style="margin-top: 20px; margin-bottom: 20px;">
+
+    <p>
+        Date Vise Game Draw History Data
+    </p>
 </Center>
+<center style="margin-top: 20px; margin-bottom: 20px;">
+    <label >From</label>
+    <input type="date"/>
+    <label >To</label>
+    <input type="date"/>
+</center>
+<center style="margin-top: 20px; margin-bottom: 20px;">
+    <button type="button" class="btn btn-primary">Delete Data</button>
+</center>
 @endsection
